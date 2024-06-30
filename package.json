@@ -10,15 +10,20 @@
     "main": "cumorah.js",
     "bin": "./src/cumorah.js",
     "scripts": {
-      "start": "node ./src/cumorah.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node ./src/cumorah.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "homepage": "https://github.com/school-of-prophets/cumorah#readme",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/school-of-prophets/cumorah.git"
+        "type": "git",
+        "url": "https://github.com/school-of-prophets/cumorah.git"
     },
     "bugs": {
-      "url": "https://github.com/school-of-prophets/cumorah/issues"
+        "url": "https://github.com/school-of-prophets/cumorah/issues"
+    },
+    "devDependencies": {
+        "eslint": "^9.6.0",
+        "eslint-plugin-jsdoc": "^48.5.0",
+        "globals": "^15.6.0"
     }
-  }
+}
